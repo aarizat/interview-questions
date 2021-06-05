@@ -1,6 +1,14 @@
-# Python Questions
+# Python Questions :snake:
 
-1 - Mention the Built-in types in Python
+1 - Mention Python Data Types
+
+* [Here](https://www.javatpoint.com/python-data-types) you can find info about it.
+
+> It's highly recomended to know about what types are mutable and inmutables. That's why I'll incude some resources:
+
+* [What are mutable and immutable objects in Python3?](https://www.educative.io/edpresso/what-are-mutable-and-immutable-objects-in-python3)
+* [Mutable vs Immutable Objects in Python](https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/)
+
 
 2 - Differences between a list and a tuple.
 
@@ -9,37 +17,43 @@
 3 - What is the best way to copy a list?
 * Talk about deep and shallow copy. Read this [post](https://www.programiz.com/python-programming/shallow-deep-copy)
 
-4 - After calling the function twice, what is the output? Why?
+4 - After calling this function twice, what is the output? Why?
 ```
-def default_list(L=[]):
-    L.append(1)
-    print(L)
+>>> def default_list(L=[]):
+>>>     L.append(1)
+>>>     print(L)
+
+>>> default_list()
+# output ???
+>>> default_list()
+# output ???
 ```
 * In order to understand this behavior, read this [post](https://docs.python-guide.org/writing/gotchas/)
 
 5 - What is the output of this code?
 ```
-a = [1, 2, 3]
-b = a
-a.append([4, 5])
-print(b)
+>>> a = [1, 2, 3]
+>>> b = a
+>>> a.append([4, 5])
+>>> print(b)
+# output ???
 ```
 6 - Which of the following two implementations would you prefer? Why?
 ```
 # First option
 
-def print_numbers(a, b):
-    for i in range(a, b+1):
-        print(i)
+>>> def print_numbers(a, b):
+>>>     for i in range(a, b+1):
+>>>     print(i)
 ```
 
 ```
 # Second option
 
-def print_numbers(a, b):
-    nums = [i for i in range(a, b+1)]
-    for i in nums:
-        print(i)
+>>> def print_numbers(a, b):
+>>>     nums = [i for i in range(a, b+1)]
+>>>     for i in nums:
+>>>         print(i)
 ```
 > Note: The functions perform the same.
 
@@ -50,9 +64,9 @@ def print_numbers(a, b):
 8 - Explain the output of these two lines of code.
 
 ```
-> round(1.5)
+>>> round(1.5)
 2
-> round(2.5)
+>>> round(2.5)
 2
 ```
 * Read about [round-bias](https://realpython.com/python-rounding/)
@@ -66,6 +80,9 @@ def print_numbers(a, b):
 * Learn about [generators](https://www.programiz.com/python-programming/generator)
 
 11 - What is an iterator?
+
+* [Python Iterators](https://www.programiz.com/python-programming/iterator)
+* [The Iterator Protocol: How "For Loops" Work in Python](https://treyhunner.com/2016/12/python-iterator-protocol-how-for-loops-work/)
 
 12 - What is the difference between a generator function and normal function?
 
@@ -88,18 +105,21 @@ def print_numbers(a, b):
 
 17 - Explain the output of this code.
 ```
-> squares = (x ** 2 for x in range(1, 10))
-> 4 in squares
+>>> numbers = [1, 2, 3, 5, 7]
+>>> squares = (n**2 for n in numbers)
+>>> 4 in squares
 True
-> 4 in squares
+>>> 4 in squares
 False
 ```
+* Read this article in order to understand this output. [Loop better: A deeper look at iteration in Python](https://opensource.com/article/18/3/loop-better-deeper-look-iteration-python)
+
 18 - How do you manage Python Exceptions ?
 ```
-try:
-  print(x)
-except:
-  print("An exception occurred")
+>>> try:
+>>>     print(x)
+>>> except:
+>>>     print("An exception occurred")
 ```
 > It's highly recommended that you learn to write user-defined exceptions.
 
@@ -107,5 +127,5 @@ except:
 
 19 - What are `*args` and `**kwargs` used in Python for?
 
-* Read [this](https://www.programiz.com/python-programming/args-and-kwargs#:~:text=*args%20and%20**kwargs%20are,to%20take%20variable%20length%20argument.&text=**kwargs%20passes%20variable%20number,kwargs%20make%20the%20function%20flexible.)
+* [Python *args and **kwargs](https://www.programiz.com/python-programming/args-and-kwargs#:~:text=*args%20and%20**kwargs%20are,to%20take%20variable%20length%20argument.&text=**kwargs%20passes%20variable%20number,kwargs%20make%20the%20function%20flexible.)
 
