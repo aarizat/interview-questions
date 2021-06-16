@@ -129,3 +129,6 @@ False
 
 * [Python *args and **kwargs](https://www.programiz.com/python-programming/args-and-kwargs#:~:text=*args%20and%20**kwargs%20are,to%20take%20variable%20length%20argument.&text=**kwargs%20passes%20variable%20number,kwargs%20make%20the%20function%20flexible.)
 
+20 - How does Python implement concurrency an parlellism?
+
+21 - How do you implement a coroutine in Python?
