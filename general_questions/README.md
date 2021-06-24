@@ -20,6 +20,8 @@
 
 7 - What is the difference between concurrency and parallelism?
 
+8 -  What is a message queuing systems? What is used for ?
+
 # Databases
 
 1 - What is a Storage Procedure (SP) ?
@@ -29,3 +31,5 @@
 3 - What is a transaction ?
 
 4 - What are used the indexes in a Databases for?
+
+5 - What is the difference between a Relational Database and Not Relational Database ?
