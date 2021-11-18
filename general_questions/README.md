@@ -9,7 +9,7 @@
 
 3 - What is Composition ?
 
-4 - What is the difference between Herencia and Composition ?
+4 - What is the difference between Inheritance and Composition ?
 
 5 - Mention some design patterns
 
@@ -30,6 +30,6 @@
 
 3 - What is a transaction ?
 
-4 - What are used the indexes in a Databases for?
+4 - What are the indexes in a database used for?
 
 5 - What is the difference between a Relational Database and Not Relational Database ?
