@@ -140,6 +140,39 @@ False
 
 * [Python *args and **kwargs](https://www.programiz.com/python-programming/args-and-kwargs#:~:text=*args%20and%20**kwargs%20are,to%20take%20variable%20length%20argument.&text=**kwargs%20passes%20variable%20number,kwargs%20make%20the%20function%20flexible.)
 
-21 - How does Python implement concurrency an parallelism?
+21 - How does Python implement concurrency and parallelism?
 
 22 - How do you implement a coroutine in Python?
+
+23 - Mention some python built-in decorators and what are they used for ?
+
+   * `staticmethod`
+   * `classmethod`
+   * search for others :)
+
+24 - What is the main difference between Django and Flask ?
+
+25 - What is the difference between  `classmethod` and `staticmethod` ?
+
+26 -  Mention some Python data structures with constant `O(1)` access time complexity.
+
+27 - Iterator vs Generator
+
+28 - What are the ways to define a decorator in Python ?
+
+29 - When to use concurrency and parallelism in Python?
+
+30 -  Look at the following piece of code:
+
+```python
+var1 = "Hello"
+var2 = "Hello"
+```
+Are var1 and var2 pointing to the same object ? Why ?
+
+31 - what is the difference between `==` and `is` ?
+
+32 - For searching an element in a Python list, what is the time complexity?
+
+33 - What are the differences between a lambda function and normal function in Python ?
+
